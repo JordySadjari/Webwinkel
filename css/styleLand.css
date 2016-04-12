@@ -1,0 +1,29 @@
+body {
+     font-family: 'Patua One', cursive;
+     background-image: url("http://wallpaper.pickywallpapers.com/1920x1080/grey-wood-pattern.jpg");
+     color: #000000;
+    padding: 0;
+    margin: 0;
+ }
+
+#Section {
+    margin-left: 10px;
+    background-color: dodgerblue;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+#sign_up {
+    font-size:20px;
+    height: 100px;
+    width: 300px;
+}
+
+#form {
+
+}

@@ -45,13 +45,14 @@ if (isset($_POST['sign_in']))
 
 
 
-
+<!DOCTYPE html>
 <html>
 <head>
     <title>EverydayCigs</title>
     <link rel="stylesheet" type="text/css" href="css/modaal.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/960_12_col.css">
+    <link rel="icon" href="fotos/8852a.gif" type="image/x-icon">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
     <script src="js/modaalStart.js"></script>
@@ -61,10 +62,7 @@ if (isset($_POST['sign_in']))
        <div class="container_12">
         <div id="Banner" class="grid_12">
             <img src="navLogo.png" class="grid_4">
-            <div id="Searchbar" class="grid_4">
-            <input type="text" id="Search" placeholder="zoeken...">
-            <input type="button" id="SearchButton" value="Zoek">
-            </div>
+
             <div id="LogReg" class="grid_4 omega">
                 <?php
                 // door Jordy Sadjari
@@ -99,18 +97,18 @@ if (isset($_POST['sign_in']))
            <div id="Log">
                <form method="post" action="#">
                    <h1>Sign In</h1>
-                   <p><label>Login Name:</label><input type="text" name="name" id="name" /></p>
-                   <p><label>Password:</label><input type="password" name="pwd" id="pwd"/>
-                   <p><input type="submit" id="sign_in" name="sign_in" value="Sign in" /></p>
+                   <p><label>Login Name:</label><input type="text" name="name" id="name" ></p>
+                   <p><label>Password:</label><input type="password" name="pwd" id="pwd">
+                   <p><input type="submit" id="sign_in" name="sign_in" value="Sign in" ></p>
                </form>
            </div>
 
            <div id="Reg">
                <form method="post" action="#">
                    <h1>Sign up</h1>
-                   <p><label>Login Name:</label><input type="text" name="name" id="name" /></p>
-                   <p><label>Password:</label><input type="password" name="pwd" id="pwd"/>
-                   <p><input type="submit" id="sign up" name="sign up" value="Sign up" /></p>
+                   <p><label>Login Name:</label><input type="text" name="name" id="name" ></p>
+                   <p><label>Password:</label><input type="password" name="pwd" id="pwd">
+                   <p><input type="submit" id="sign up" name="sign up" value="Sign up" ></p>
                </form>
            </div>
         
@@ -237,43 +235,52 @@ if (isset($_POST['sign_in']))
                 </li>
             </ul>
         </div>
-        <div id="footer" class="grid_12">
-            <div id="Products" class="grid_2">
-                <ul>
-                    <h3>Products</h3>
-                    <li>Marlboro</li>
-                    <li>King</li>
-                    <li>Gaouloises</li>
-                    <li>Camel</li>
-                </ul>
-            </div>
-            <div id="EverydayCigs" class="grid_2">
-                <ul>
-                    <h3>EverydayCigs</h3>
-                    <li>About us</li>
-                    <li>Terms and Con.</li>
-                    <li>Contact</li>
-                    <li>Cookies</li>
-                </ul>
-            </div>
-            <div id="Support" class="grid_2">
-                <ul>
-                    <h3>Support</h3>
-                    <li>Security</li>
-                    <li>Payment</li>
-                    <li>Refund</li>
-                    <li>FAQ</li>
-                </ul>
-            </div>
-            <div id="Newsletter" class="grid_5">
-                <h3>Newsletter</h3>
-                <p>Sign up now to receive free coupons and exclusive deals</p>
-                <form>
-                    <input type="email" id="Newsletterinput" placeholder="email">
-                    <button id="Newsbutton"><span>Subscribe</span></button>
-                </form>
-                </div>
-        </div>        
+           <div id="footer" class="grid_12">
+               <div id="Products" class="grid_2">
+                   <h3>Products</h3>
+                   <ul>
+                       <li>Marlboro</li>
+                       <li>King</li>
+                       <li>Gaouloises</li>
+                       <li>Camel</li>
+                   </ul>
+               </div>
+               <div id="EverydayCigs" class="grid_2">
+                   <h3>EverydayCigs</h3>
+                   <ul>
+                       <li>About us</li>
+                       <li><a href="terms.php">Terms and Con.</a></li>
+                       <li>Contact</li>
+                       <li>Cookies</li>
+                   </ul>
+               </div>
+               <div id="Support" class="grid_2">
+                   <h3>Support</h3>
+                   <ul>
+                       <li>Security</li>
+                       <li>Payment</li>
+                       <li>Refund</li>
+                       <li>FAQ</li>
+                   </ul>
+               </div>
+               <div id="Newsletter" class="grid_5">
+                   <h3>Newsletter</h3>
+                   <p>Sign up now to receive free coupons and exclusive deals</p>
+                   <form>
+                       <input type="email" id="Newsletterinput" placeholder="email">
+                       <button id="Newsbutton"><span>Subscribe</span></button>
+                   </form>
+               </div>
+               <div class="clear"></div>
+               <div id="social" class="grid_5">
+                   <img src="Fotos/social/Facebook.png" id="facebook" alt="facebook" >
+                   <img src="Fotos/social/Twitter.png" id="twitter" alt="twitter" >
+                   <img src="Fotos/social/Tumblr.png" id="tumblr" alt="tumblr" >
+                   <img src="Fotos/social/Google+.png" id="google" alt="google" >
+                   <img src="Fotos/social/Feed.png" id="feed" alt="feed" >
+                   <img src="Fotos/social/Pinterest.png" id="pinterest" alt="pinterest" >
+               </div>
+           </div>
     </div>
 </body>
 </html>

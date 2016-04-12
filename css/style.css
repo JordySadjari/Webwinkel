@@ -1,7 +1,15 @@
 body {
     background-color: #EBEAE9;
     font-family: 'Patua One', cursive;
+    background-image: url("http://wallpaper.pickywallpapers.com/1920x1080/grey-wood-pattern.jpg");
+
 }
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 #nav {
     height: 50px;
     background-color: black;
@@ -15,8 +23,8 @@ body {
 }
 
 #Banner img {
-    margin-left: 10px;
-    margin-top: 15px;
+    height:100px;
+    width:500px;
 }
 
 #Search {
@@ -130,7 +138,12 @@ body {
     background-color: black;
     color: gray;
     font-family: 'Patua One', cursive;
+    border: none;
     
+}
+
+#R {
+    border-right:solid white 2px;
 }
 
 .Login:hover {
@@ -157,6 +170,12 @@ body {
 
 ul {
     padding: 0;
+}
+
+#LogReg {
+    float: right;
+    display: inline-block;
+
 }
 
 #Reg{
@@ -284,4 +303,22 @@ footer {
     font-weight: bold;
     display: block;
 }
+#footer img{
+    margin-left: 8.5px;
+    margin-top: 8.5px;
+    border: white 4px solid;
+    border-radius: 100px;
+    background-color: white;
+}
 
+#footer img:hover{
+    transition: 0.3s;
+    opacity: 0.9;
+    box-shadow: 0 1px 8px black;
+    cursor: pointer;
+}
+
+#social{
+    width: 320px;
+    height: 50px;
+}
